@@ -1,0 +1,53 @@
+.active{
+  color: hotpink;
+  font-style: italic;
+}
+a{
+  text-decoration: none;
+  color: pink;
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: line-through;
+}
+img{
+  width: 500px;
+}
+h1{
+  color: hotpink;
+}
+body{
+  background: hotpink;
+    background: -webkit-linear-gradient(left, blue, hotpink);
+    background: -o-linear-gradient(left, blue, hotpink);
+    background: -moz-linear-gradient(left, blue, hotpink);
+    background: linear-gradient(left, blue, hotpink);
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+li{
+  padding: 10px;
+  background: darkblue;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+.flex{
+  display: flex;
+}
+.red{
+  background: red;
+}
+.blue{
+  background: blue;
+}
+.purple{
+  background: purple;
+}
+header{
+  background: hotpink;
+}
+footer{
+  background: pink;
+}
