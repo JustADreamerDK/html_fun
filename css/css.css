@@ -22,16 +22,26 @@ body{
     background: -o-linear-gradient(left, blue, hotpink);
     background: -moz-linear-gradient(left, blue, hotpink);
     background: linear-gradient(left, blue, hotpink);
+    margin: auto;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 ul{
   list-style: none;
   display: flex;
+  margin-top: 10px;
 }
 li{
   padding: 10px;
   background: darkblue;
   border: 1px solid black;
   margin-left: 10px;
+  border-radius: 10px;
+}
+ul:last-child{
+  margin-right: 10px;
 }
 .flex{
   display: flex;
@@ -47,7 +57,38 @@ li{
 }
 header{
   background: hotpink;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lime;
+  border-bottom: 10px double lime;
+  border-top: 10px double lime;
 }
 footer{
   background: pink;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: deeppink;
+  border-top: 10px dotted deeppink;
+  border-bottom: 10px dotted deeppink;
+}
+.content{
+  flex: 1;
+}
+h1{
+  font-size: 5em;
+  color: red;
+  margin: 10px;
+}
+h2{
+  font-size: 4em;
+}
+p{
+  margin: 10px;
+}
+img{
+  width: 400px;
 }
