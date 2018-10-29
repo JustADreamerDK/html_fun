@@ -1,0 +1,56 @@
+.flex{
+  display: flex;
+}
+header{
+  background: #4d001f;
+}
+nav{
+  background: #b30047;
+}
+nav ul{
+  display: flex;
+}
+main{
+  background: #ff0066;
+}
+footer{
+  background: #ff4d94;
+}
+aside{
+  width: 20%;
+  background: #800040;
+  padding: 20px;
+}
+p{
+  background: #ff80bf;
+  margin: 10px;
+  padding: 10px;
+}
+body, a{
+  color: white;
+}
+li{
+  list-style: none;
+  padding: 10px;
+}
+body{
+  background: #00ff00;
+}
+@media screen and (max-width: 768px) {
+  body{
+    background: #00cc00;
+    color: red;
+  }
+}
+@media screen and (max-width: 600px) {
+  body{
+    background: #009900;
+    color: blue;
+  }
+}
+@media screen and (max-width: 375px) {
+  body{
+    background: #006600;
+    color: yellow;
+  }
+}
